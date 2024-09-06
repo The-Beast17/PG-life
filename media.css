@@ -1,0 +1,12 @@
+@media (max-width : 600px){
+    .shutter-up h1 ,.shutter-down h1{
+        font-size: 15vw;
+    }
+
+    .shutter-up h2{
+        font-size: 4vw;
+    }
+    .shutter-down p{
+        font-size: 3vw;
+    }
+}
