@@ -14,20 +14,29 @@ body{
 }
 
 .shutter {
+    overflow: hidden;
     width : 100%;
     height: 100%;
     position : absolute;
     top:0;
-    animation : shutter 0s 1 forwards 7s; 
+    /* animation : shutter 5s 1 forwards 7s;  */
+}
+
+.shutter h1{
+    font-size: 9vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800; 
 }
 
 
 @keyframes shutter {
     from{
         height : 100%;
+       
       }
       to{
         height : 0%;
+        
       }
 }
 
@@ -35,7 +44,7 @@ body{
     overflow: hidden;
     position : absolute;
     top : 0;
-    height : 50vh;
+    height : 50%;
     width : 100%;
     background-color: black;
     color :#3C3D37;
@@ -43,21 +52,17 @@ body{
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    animation : up 3s 1 forwards 2s;
+    /* animation : up 3s 1 forwards 2s; */
     z-index :100;
 } 
 
 .shutter-up h1{
-    transform: translatey(50%);
-    font-size: 9vw;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
+    transform: translatey(6vw);
 }
 
 .shutter-up h2{
    font-size: 1.7vw;
    letter-spacing: 1vw;
-   padding-top: 200px;
    transform: translatey(6vw);
 
 }
@@ -79,7 +84,7 @@ body{
     width : 100%;
     background-color: black;
     color:#3C3D37;
-    animation : down 3s 1 forwards 2s;
+    /* animation : down 3s 1 forwards 2s; */
     z-index: 100;
     text-align: center;
     
@@ -88,9 +93,6 @@ body{
 
 .shutter-down h1{
     transform: translatey(-50%);
-    font-size: 9vw;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
 }
 
 .shutter-down p{
@@ -110,5 +112,4 @@ body{
 }  
 main{
     height :200vh;
-    background-color: tomato;
 } 

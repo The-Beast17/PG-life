@@ -1,6 +1,13 @@
 @media (max-width : 600px){
-    .shutter-up h1 ,.shutter-down h1{
+    .shutter h1{
         font-size: 15vw;
+    }
+
+    .shutter-up h1 {
+        transform: translatey(9.4vw);
+    }
+    .shutter-down h1 {
+        transform: translatey(-10.5vw);
     }
 
     .shutter-up h2{
