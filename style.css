@@ -19,7 +19,7 @@ body{
     height: 100%;
     position : absolute;
     top:0;
-    /* animation : shutter 5s 1 forwards 7s;  */
+    animation : shutter 5s 1 forwards 7s;  
 }
 
 .shutter h1{
@@ -52,7 +52,7 @@ body{
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    /* animation : up 3s 1 forwards 2s; */
+    animation : up 3s 1 forwards 2s; 
     z-index :100;
 } 
 
@@ -84,7 +84,7 @@ body{
     width : 100%;
     background-color: black;
     color:#3C3D37;
-    /* animation : down 3s 1 forwards 2s; */
+    animation : down 3s 1 forwards 2s;
     z-index: 100;
     text-align: center;
     
